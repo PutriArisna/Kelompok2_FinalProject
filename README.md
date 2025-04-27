@@ -14,7 +14,7 @@ The goal is to help financial institutions **automate** and **optimize** loan ap
 
 ---
 
-## 💬 Problem Statement
+## 💬 Problem Statements
 - High volume of loan applications
 - High loan default rate
 - Limited staff to manually assess applications
