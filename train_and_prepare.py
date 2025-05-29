@@ -84,7 +84,7 @@ def train_model(data_path="Loan_Predict.csv"):
     X_train, y_train = rus.fit_resample(X_train, y_train)
 
     # Train model
-    model = XGBClassifier(verbose=0,learning_rate=0.546, max_depth=6, subsample=1,colsample_bytree=1, random_state=42)
+    model = XGBClassifier(learning_rate=0.546, max_depth=6, subsample=1,colsample_bytree=1, random_state=42)
     model.fit(X_train, y_train)
 
     # Save model
