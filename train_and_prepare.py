@@ -24,7 +24,6 @@ def train_model(data_path="Loan_Predict.csv"):
             return 'High'
 
     df['Income_Level'] = df['Income'].apply(categorize_income)
-    df['Job_Consistency'] = df['Experience'] - df['CURRENT_JOB_YRS']
 
     # One-hot encoding
     one_hot = ['Car_Ownership', 'Married/Single', 'House_Ownership']
